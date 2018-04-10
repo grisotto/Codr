@@ -1,17 +1,37 @@
 {
-  "name": "codr",
-  "version": "0.0.13",
-  "description": "A node program to extract codeforces inputs and outputs",
-  "main": "./lib/codr.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/callistusystan/codr"
+  "_from": "codr",
+  "_id": "codr@0.0.13",
+  "_inBundle": false,
+  "_integrity": "sha512-G9HWwyyQrIPqZ8lPKIVjWsJTsNfhTfv62e6zxorlpO9Ltaon3G2AD+jvxHy/0nw4oYBYDx6lNtcKIB4EJPzPKA==",
+  "_location": "/codr",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "codr",
+    "name": "codr",
+    "escapedName": "codr",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/codr/-/codr-0.0.13.tgz",
+  "_shasum": "86356e981f74f93ce01a6aebbdeae73a482140c8",
+  "_spec": "codr",
+  "_where": "/home/rafael",
+  "author": {
+    "name": "Callistus Tan"
   },
-  "author": "Callistus Tan",
-  "license": "MIT",
+  "bin": {
+    "codr": "bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/callistusystan/codr/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "axios": "^0.17.0",
     "cheerio": "^1.0.0-rc.2",
@@ -19,11 +39,10 @@
     "lodash": "^4.17.4",
     "minimist": "^1.2.0"
   },
-  "bin": {
-    "codr": "bin/index.js"
-  },
-  "preferGlobal": "true",
+  "deprecated": false,
+  "description": "A node program to extract hackerrank inputs, outputs and template for languagues",
   "devDependencies": {},
+  "homepage": "https://github.com/callistusystan/codr#readme",
   "keywords": [
     "competitive programming",
     "codeforces",
@@ -32,5 +51,17 @@
     "extract",
     "input",
     "output"
-  ]
+  ],
+  "license": "MIT",
+  "main": "./lib/codr.js",
+  "name": "codr",
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callistusystan/codr.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.13"
 }

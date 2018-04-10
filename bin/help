@@ -2,6 +2,8 @@ usage: codr [-h | --help]
             [<directory> <URL>]
             [-t | --template <templateFilePath>]
             [-r | --runscript <runScriptPath>]
+            [-l | --languague <languagueNames>]
+
 
 actions:
   -h, --help          shows this help message and exit.
@@ -36,4 +38,12 @@ actions:
                       example: codr -r off
 
                       NOTE: templateFile must be a valid path to an existing file.
+                      NOTE: may require "sudo su".
+
+  -l, --languages     sets the languages. Default: cpp.
+
+                      example: codr -l cpp
+                      example: codr -l cpp java
+
+                      NOTE: languageNames must be a valid name.
                       NOTE: may require "sudo su".

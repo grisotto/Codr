@@ -6,7 +6,9 @@ It accepts a URL to a coding problem (on a listed platform), and sets up a folde
 
 Codr currently works for the following:
 1. [Codeforces](http://www.codeforces.com)
-2. [HackerRank](https://www.hackerrank.com) 
+2. [HackerRank](https://www.hackerrank.com) (Work in progress)
+
+NOTE: To use the default test script, the C++ executable should be named "sol" (g++ -std=c++14 <code.cpp> -o sol)
 
 Codr is free to use! If you like it, please support me and give it a star on my Github, www.github.com/callistusystan/codr :star:
 
@@ -42,8 +44,6 @@ usage: codr [-h | --help]
             [<directory> <URL>]
             [-t | --template <templateFilePath>]
             [-r | --runscript <runScriptPath>]
-            [-l | --languague <languagueNames>]
-
 
 actions:
   -h, --help          shows this help message and exit.
@@ -78,14 +78,6 @@ actions:
                       example: codr -r off
 
                       NOTE: templateFile must be a valid path to an existing file.
-                      NOTE: may require "sudo su".
-
-  -l, --languages     sets the languages. Default: cpp.
-
-                      example: codr -l cpp
-                      example: codr -l cpp java
-
-                      NOTE: languageNames must be a valid name.
                       NOTE: may require "sudo su".
 ```
 
